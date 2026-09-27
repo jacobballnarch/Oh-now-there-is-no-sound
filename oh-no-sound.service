@@ -1,0 +1,12 @@
+[Unit]
+Description=Oh, now there is no sound
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+ExecStart=
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=graphical-session.target
