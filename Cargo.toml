@@ -1,0 +1,10 @@
+[package]
+name = "Oh-now-there-is-no-sound"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gtk = { version = "0.10", package = "gtk4" }
+gtk4-layer-shell = "0.7"
+libpulse-binding = "2.30"
+libpulse-glib-binding = "2.28"
